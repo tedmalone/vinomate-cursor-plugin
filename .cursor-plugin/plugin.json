@@ -17,5 +17,6 @@
     "pairing",
     "recommendations",
     "mcp"
-  ]
+  ],
+  "repository": "https://github.com/tedmalone/vinomate-cursor-plugin"
 }

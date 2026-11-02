@@ -1,0 +1,11 @@
+{
+  "name": "vinomate",
+  "displayName": "VinoMate",
+  "version": "0.1.0",
+  "description": "Your AI sommelier: rank a wine list or store shelf against your own taste, log tastings and ratings, manage your cellar and wishlist, find pairings from what you've drunk before, and report prices. Connects to the VinoMate MCP server with OAuth sign-in.",
+  "author": {
+    "name": "VinoMate"
+  },
+  "homepage": "https://vinomate.ai",
+  "keywords": ["wine", "sommelier", "tasting", "cellar", "wine-list", "pairing", "recommendations", "mcp"]
+}

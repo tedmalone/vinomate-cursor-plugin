@@ -6,6 +6,9 @@ taste profile, and cellar, backed by VinoMate's wine catalogue, instead of guess
 
 Learn more at [vinomate.ai](https://vinomate.ai).
 
+The same plugin works in Grok Bot, which installs plugins from the Cursor Marketplace. Menu names
+there may differ from the Cursor ones used below.
+
 ## What it does
 
 The plugin adds one remote MCP server (`vinomate`, shown in Cursor as `plugin-vinomate-vinomate`)
@@ -58,6 +61,9 @@ There are no API keys, environment variables, or plugin variables to configure.
   registers itself as a public client
 - Protected resource metadata: `https://mcp.vinomate.ai/.well-known/oauth-protected-resource/mcp`
 - Scopes: `taste:read`, `cellar:read`, `cellar:write`, `history:read`
+- A sign-in lasts 14 days. VinoMate issues no refresh tokens, so after that the next VinoMate tool
+  call asks you to sign in again. An agent that runs unattended, such as Grok Bot working on its
+  own, loses VinoMate access until someone signs in again in a browser.
 
 To sign out, ask the agent to "sign out of VinoMate" (`sign_out`), or remove the sign-in for the
 server under Customize in Cursor.
